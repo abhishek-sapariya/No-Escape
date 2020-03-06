@@ -11,4 +11,5 @@ Firstally you have to copy some files to your codeblocks folder (this files is g
 Then open CodeBlocks go to settings --> complier --> Linker settings -->  
 (1) in 'Link libraries' add libbgi.a file
 (2) in 'other linker options' paste these "-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" and click save
+
 and you are ready to go with graphics library
