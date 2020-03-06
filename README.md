@@ -9,6 +9,6 @@ Firstally you have to copy some files to your codeblocks folder (this files is g
 (2) libbgi.a to CodeBlocks --> MinGW --> lib
 
 Then open CodeBlocks go to settings --> complier --> Linker settings --> 
---in Link libraries tab add libbgi.a file
---in other linker options path these "-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" and click save
+(1)in Link libraries tab add libbgi.a file
+(2)in other linker options path these "-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32" and click save
 and you are ready to go with graphics library
